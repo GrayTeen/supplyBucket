@@ -13,7 +13,7 @@
         "if (!(Test-Path \"$persist_dir\\HoYo.Gacha.db\")) {",
         "    Write-Host 'File HoYo.Gacha.db does not exists. Creating.' -f Yellow",
         "    Start-Process -FilePath \"$dir\\HoYo.Gacha.exe\" -RedirectStandardOutput \"$dir\\output.txt\"",
-        "    while (!(Test-Path \"$dir\\HoYo.Gacha.db\")) {",
+        "    while (!(Test-Path \"$dir\\HoYo.Gacha.v1.db\")) {",
         "        Start-Sleep -Milliseconds 500",
         "    }",
         "    Start-Sleep 1",
