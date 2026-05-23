@@ -20,7 +20,7 @@
         "    Stop-Process -Name HoYo.Gacha",
         "}"
     ],
-    "persist": "HoYo.Gacha.db",
+    "persist": "HoYo.Gacha.v1.db",
     "shortcuts": [
         [
             "HoYo.Gacha.exe",
